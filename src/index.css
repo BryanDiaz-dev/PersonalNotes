@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+/* Ocultar la barra de desplazamiento en navegadores basados en WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Ocultar la barra de desplazamiento en Firefox */
+body {
+    scrollbar-width: none; /* Oculta la barra de desplazamiento */
+    -ms-overflow-style: none; /* Oculta la barra en IE y Edge */
+}
